@@ -10,6 +10,7 @@ describe("empty spec", () => {
     expect(data.inGroups[0]).toHaveLength(2)
     expect(data.inGroups[1]).toHaveLength(2)
     
+    
     expect(persons).includes(data.inGroups[0][0])
     expect(persons).includes(data.inGroups[0][1])
     expect(persons).includes(data.inGroups[1][0])
